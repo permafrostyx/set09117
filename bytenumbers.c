@@ -3,14 +3,16 @@
 //main program
 int main()
 {
-	//int variable
+	//variables
 	int integerVariable;
-	//variable to store result of sizeof
-	size_t size;
-	//getting size of int variable
-	size = sizeof(integerVariable);
-	//printing that
-	printf("size of integer variable is %zu bytes\n", size);
+	long int int2;
+	char char1;
+	double double1;
+	//printing size of variables
+	printf("size of integer variable is %zu bytes\n", sizeof(integerVariable));
+	printf("size of long integer variable is %zu bytes\n", sizeof(int2));
+	printf("size of char variable is %zu bytes\n", sizeof(char1));
+	printf("size of double variable is %zu bytes\n", sizeof(double1));
 	//exiting program
 	return 0;
 }
